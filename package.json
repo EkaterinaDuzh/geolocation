@@ -5,7 +5,7 @@
   "scripts": {
      "start": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "lint": "eslint . --fix",
+    "lint": "eslint ./src",
     "test": "jest --testPathPattern=./src/",
     "coverage": "jest --testPathPattern=./src/ --coverage",
     "e2e": "jest --testPathPattern=./e2e/ --runInBand",
@@ -27,7 +27,7 @@
     "url": "https://github.com/EkaterinaDuzh/geolocation/issues"
   },
   "homepage": "https://github.com/EkaterinaDuzh/geolocation#readme",
-  "devDependencies": {
+   "devDependencies": {
     "@babel/cli": "^7.19.3",
     "@babel/core": "^7.20.2",
     "@babel/eslint-parser": "^7.19.1",
