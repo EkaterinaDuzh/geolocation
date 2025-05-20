@@ -1,6 +1,5 @@
 {
   "plugins": ["prettier"],
-  "ignorePatterns": [".eslintrc.js","*"],
   "extends": ["eslint:recommended", "plugin:prettier/recommended"],
   "env": {
     "es6": true,
