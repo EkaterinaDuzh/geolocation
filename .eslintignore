@@ -2,6 +2,3 @@ dist
 coverage
 doc
 webpack.*.js
-e2e
-./graphql/generated/
-./third-party/
